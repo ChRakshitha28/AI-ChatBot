@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <h1 class="title">Ai</h1>
+    </header>
+
+    <main class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+            <div class="message">
+                <div class="avatar bot-avatar">Ai</div>
+                <div class="">
+                    <p style="padding: 8px 0px;">Hello! I'm Ai Chat Box. How can I assist you today?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="input-wrapper">
+        <div class="input-container">
+            <textarea 
+                class="input-box" 
+                placeholder="Message Ai..." 
+                id="userInput"
+                rows="1"
+            ></textarea>
+            <button class="send-button" id="sendButton" disabled>
+                <svg viewBox="0 0 24 24">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
